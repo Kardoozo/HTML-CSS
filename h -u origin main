@@ -1,0 +1,131 @@
+[33m99af8c9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial commit
+ .gitattributes                                     |   2 [32m+[m
+ LICENSE                                            |  21 [32m++[m
+ README.md                                          |   2 [32m+[m
+ exercicios/box02/box02.html                        | 116 [32m++++++++++[m
+ exercicios/box1/box01.html                         |  70 [32m++++++[m
+ exercicios/css13/index.html                        |  20 [32m++[m
+ exercicios/css14/index.html                        |  35 [32m+++[m
+ exercicios/css15/estilos.css                       |  17 [32m++[m
+ exercicios/css15/index.html                        |  49 [32m+++++[m
+ exercicios/css15/pagina02.html                     |  15 [32m++[m
+ exercicios/css16/index.html                        |  21 [32m++[m
+ exercicios/css17/cor03.html                        |  23 [32m++[m
+ exercicios/css17/estudosM/estilo.css               | 123 [32m+++++++++++[m
+ exercicios/css17/estudosM/semana.html              | 124 [32m+++++++++++[m
+ exercicios/css17/index.html                        |  38 [32m++++[m
+ exercicios/css17/style.css                         |  33 [32m+++[m
+ exercicios/css18/index.html                        |  28 [32m+++[m
+ exercicios/css19/font01.html                       |  64 [32m++++++[m
+ exercicios/css19/font02.html                       |  93 [32m++++++++[m
+ exercicios/css19/fonts/norse/Norse.otf             | Bin [31m0[m -> [32m37244[m bytes
+ exercicios/css19/fonts/norse/Norsebold.otf         | Bin [31m0[m -> [32m34876[m bytes
+ exercicios/css19/fonts/norse/freefont_license.txt  |  55 [32m+++++[m
+ .../css19/fonts/spell_of_asia/Spell of Asia.ttf    | Bin [31m0[m -> [32m56512[m bytes
+ .../css19/fonts/thememefont/readme thememefont.txt |   8 [32m+[m
+ exercicios/css19/fonts/thememefont/thememefont.ttf | Bin [31m0[m -> [32m174916[m bytes
+ .../css19/fonts/veteran_typewriter/license1.txt    |   5 [32m+[m
+ .../veteran_typewriter/veteran typewriter.ttf      | Bin [31m0[m -> [32m52548[m bytes
+ exercicios/css20/seletor01.html                    |  39 [32m++++[m
+ exercicios/css20/style.css                         |  35 [32m+++[m
+ exercicios/css21/eu fiz/eu fiz.html                |  39 [32m++++[m
+ exercicios/css21/eu fiz/modern_romance/1.png       | Bin [31m0[m -> [32m965781[m bytes
+ .../css21/eu fiz/modern_romance/Modern Romance.otf | Bin [31m0[m -> [32m26164[m bytes
+ exercicios/css21/eu fiz/modern_romance/README.txt  |  31 [32m+++[m
+ exercicios/css21/eu fiz/style.css                  |  95 [32m+++++++++[m
+ exercicios/css21/eu fiz/vogue/Vogue.ttf            | Bin [31m0[m -> [32m135032[m bytes
+ exercicios/css21/exercicio/hover.html              |  42 [32m++++[m
+ exercicios/css21/exercicio/links.html              |  66 [32m++++++[m
+ exercicios/css21/exercicio/pseudo.html             |  29 [32m+++[m
+ exercicios/css21/pag03/modern_romance/1.png        | Bin [31m0[m -> [32m965781[m bytes
+ .../css21/pag03/modern_romance/Modern Romance.otf  | Bin [31m0[m -> [32m26164[m bytes
+ exercicios/css21/pag03/modern_romance/README.txt   |  31 [32m+++[m
+ exercicios/css21/pag03/pag3.css                    |  65 [32m++++++[m
+ exercicios/css21/pag03/pag3.html                   |  51 [32m+++++[m
+ exercicios/css21/pag2/pag02.html                   |  37 [32m++++[m
+ exercicios/css21/pag2/pag2.css                     |  69 [32m++++++[m
+ .../css21/pag2/protest/177Studio-License.txt       |  20 [32m++[m
+ exercicios/css21/pag2/protest/Protest Demo.otf     | Bin [31m0[m -> [32m54648[m bytes
+ exercicios/css21/pag2/protest/Protest Demo.ttf     | Bin [31m0[m -> [32m225976[m bytes
+ exercicios/eu fiz/G.html                           |  60 [32m++++++[m
+ exercicios/eu fiz/Gustavo250.png                   | Bin [31m0[m -> [32m70248[m bytes
+ exercicios/eu fiz/icone-github.png                 | Bin [31m0[m -> [32m674[m bytes
+ exercicios/eu fiz/icone-instagram.png              | Bin [31m0[m -> [32m1058[m bytes
+ exercicios/eu fiz/icone-twitter.png                | Bin [31m0[m -> [32m938[m bytes
+ exercicios/eu fiz/icone-youtube.png                | Bin [31m0[m -> [32m942[m bytes
+ exercicios/eu fiz/imageDC.png                      | Bin [31m0[m -> [32m5512[m bytes
+ exercicios/eu fiz/index.html                       | 103 [32m+++++++++[m
+ exercicios/eu fiz/neyminhaopinao.png               | Bin [31m0[m -> [32m82413[m bytes
+ exercicios/eu fiz/spiderman.png                    | Bin [31m0[m -> [32m2085[m bytes
+ exercicios/eu fiz/teste/neyflores.jpg              | Bin [31m0[m -> [32m61080[m bytes
+ exercicios/eu fiz/teste/pag002.html                |  17 [32m++[m
+ exercicios/eufiz2/html400.png                      | Bin [31m0[m -> [32m152139[m bytes
+ exercicios/eufiz2/iconguanabara60.png              | Bin [31m0[m -> [32m2310[m bytes
+ exercicios/eufiz2/index.html                       |  28 [32m+++[m
+ exercicios/eufiz2/javascript400.png                | Bin [31m0[m -> [32m140368[m bytes
+ exercicios/eufiz2/linux400.png                     | Bin [31m0[m -> [32m112595[m bytes
+ exercicios/eufiz2/pag2.html                        |  31 [32m+++[m
+ exercicios/eufiz2/pag3.html                        |  28 [32m+++[m
+ exercicios/eufiz2/pag4.html                        |  25 [32m+++[m
+ exercicios/eufiz2/pag5.html                        |  24 [32m+++[m
+ exercicios/eufiz2/python400.png                    | Bin [31m0[m -> [32m127134[m bytes
+ exercicios/eufiz2/seta100semfundo.png              | Bin [31m0[m -> [32m3773[m bytes
+ exercicios/eufiz3/audio/dexter.mp3                 | Bin [31m0[m -> [32m300649[m bytes
+ exercicios/eufiz3/audio/last-of-us-theme.mp3       | Bin [31m0[m -> [32m168757[m bytes
+ exercicios/eufiz3/audio/naruto.mp3                 | Bin [31m0[m -> [32m64812[m bytes
+ exercicios/eufiz3/index.html                       |  61 [32m++++++[m
+ exercicios/eufiz3/midia/dexter700.png              | Bin [31m0[m -> [32m644788[m bytes
+ exercicios/eufiz3/midia/fnaruto500.png             | Bin [31m0[m -> [32m241730[m bytes
+ exercicios/eufiz3/midia/the-last-of-us1.webp       | Bin [31m0[m -> [32m12288[m bytes
+ exercicios/eufiz3/node_0f6731743624c.tmp.js        |  11 [32m+[m
+ exercicios/eufiz3/node_46511b5d86bea.tmp.js        |   8 [32m+[m
+ exercicios/eufiz3/node_854e6e5a335ee.tmp.js        |  11 [32m+[m
+ exercicios/eufiz3/node_d230e09ad5de4.tmp.js        |  10 [32m+[m
+ exercicios/eufiz3/nsei.js                          |  12 [32m++[m
+ exercicios/ex001/index.html                        |  15 [32m++[m
+ exercicios/ex002/index.html                        |  45 [32m++++[m
+ exercicios/ex003/img/logohtml200.webp              | Bin [31m0[m -> [32m3732[m bytes
+ exercicios/ex003/index.html                        |  17 [32m++[m
+ exercicios/ex003/logocss200.png                    | Bin [31m0[m -> [32m5476[m bytes
+ exercicios/ex004/index.html                        |  13 [32m++[m
+ exercicios/ex004/spiderman100.png                  | Bin [31m0[m -> [32m10944[m bytes
+ exercicios/ex005/gpt.html                          |  14 [32m++[m
+ exercicios/ex005/index.html                        |  29 [32m+++[m
+ "exercicios/ex006/Sem\303\242ntica.html"           |  45 [32m++++[m
+ exercicios/ex007/index.html                        |  44 [32m++++[m
+ exercicios/ex009/index.html                        | 129 [32m++++++++++++[m
+ exercicios/ex010/image.png                         | Bin [31m0[m -> [32m16654[m bytes
+ exercicios/ex010/index.html                        |  38 [32m++++[m
+ exercicios/ex010/livro/1pag.pdf                    | Bin [31m0[m -> [32m30192[m bytes
+ exercicios/ex010/livro/1pag.zip                    | Bin [31m0[m -> [32m28934[m bytes
+ exercicios/ex010/noticias/pag003.html              |  13 [32m++[m
+ exercicios/ex010/pag002.html                       |  13 [32m++[m
+ exercicios/ex011/eufiz.html                        |  43 [32m++++[m
+ exercicios/ex011/imagens/fotoG.png                 | Bin [31m0[m -> [32m8373[m bytes
+ exercicios/ex011/imagens/fotoM.png                 | Bin [31m0[m -> [32m5059[m bytes
+ exercicios/ex011/imagens/fotoP.png                 | Bin [31m0[m -> [32m2290[m bytes
+ exercicios/ex011/index.html                        |  29 [32m+++[m
+ exercicios/ex011/midia/among-us.mp3                | Bin [31m0[m -> [32m99894[m bytes
+ exercicios/ex011/midia/faaah.mp3                   | Bin [31m0[m -> [32m47784[m bytes
+ exercicios/ex011/midia/im-giving-up.mp3            | Bin [31m0[m -> [32m8740608[m bytes
+ .../midia/setembro-vai-entrar-o-grosso-lula.mp3    | Bin [31m0[m -> [32m130991[m bytes
+ exercicios/ex011/midia/spide-man.mp3               | Bin [31m0[m -> [32m199294[m bytes
+ exercicios/ex011/naruto.mp3                        | Bin [31m0[m -> [32m64812[m bytes
+ exercicios/ex011/video.html                        |  18 [32m++[m
+ exercicios/ex011/video/video1.mp4                  | Bin [31m0[m -> [32m490550357[m bytes
+ exercicios/ex011/video/video2.mp4                  | Bin [31m0[m -> [32m14550095[m bytes
+ .../__MACOSX/fontes/._idroid.otf                   | Bin [31m0[m -> [32m212[m bytes
+ .../__MACOSX/imagens/._favicon.ico                 | Bin [31m0[m -> [32m404[m bytes
+ .../site01/pacote-projeto-d010/android-site.txt    |  63 [32m++++++[m
+ .../site01/pacote-projeto-d010/fontes/idroid.otf   | Bin [31m0[m -> [32m24440[m bytes
+ .../pacote-projeto-d010/imagens/bugdroid.png       | Bin [31m0[m -> [32m12978[m bytes
+ .../pacote-projeto-d010/imagens/dan-droids-pq.png  | Bin [31m0[m -> [32m191128[m bytes
+ .../pacote-projeto-d010/imagens/dan-droids.png     | Bin [31m0[m -> [32m190808[m bytes
+ .../site01/pacote-projeto-d010/imagens/favicon.ico | Bin [31m0[m -> [32m4286[m bytes
+ .../pacote-projeto-d010/imagens/irina-blok-pq.jpg  | Bin [31m0[m -> [32m22723[m bytes
+ .../pacote-projeto-d010/imagens/irina-blok.jpg     | Bin [31m0[m -> [32m18147[m bytes
+ exercicios/site01/site.css                         | 234 [32m+++++++++++++++++++++[m
+ exercicios/site01/site.html                        | 105 [32m+++++++++[m
+ exercicios/site01/site2.html                       |  78 [32m+++++++[m
+ exercicios/site01/style.css                        | 157 [32m++++++++++++++[m
+ 129 files changed, 3182 insertions(+)

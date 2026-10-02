@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgem Em HTML5</title>
+</head>
+
+<body>
+    <h1>Imgem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="imagem flexível">
+    </picture>
+
+    <h1>reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/among-us.mp3" controls ></audio><br>
+
+    <audio preload="metadata"  controls>
+        <source src="midia/faaah.mp3" type="audio/mpeg">
+    </audio><br>
+    <audio src="midia/spide-man.mp3"  controls></audio><br>
+    <audio src="midia/im-giving-up.mp3" controls></audio>
+</body> 
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eu fiz</title>
+</head>
+<body>
+    <h1>inserindo imagens que se ajustam</h1>
+
+    <p>3 imagens</p>
+
+    <picture>
+        <source media="(max-width: 768px)" srcset="https://i.pinimg.com/736x/d9/29/00/d9290081650be42d78fda3208fc97b8f.jpg">
+
+        <source media="(max-width: 1300px)" srcset="https://i.pinimg.com/736x/b9/60/9c/b9609c01efea8d8f915712973ff539f8.jpg">
+
+        <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/03/04/6F3E2E33-8AAF-4607-8B3E-80261F00FB86/naruto_104.jpg?crop=1080,1080,x419,y0&width=1200&height=1200&optimize=low&format=webply" alt="imagem flexivel" onclick="tocar()" style="cursor: pointer;"><br>
+    </picture>
+   
+
+    
+<picture>
+    <img 
+        src="https://i.pinimg.com/736x/6b/d0/a8/6bd0a81ea152e0b3c35ddfc72cda48a1.jpg" 
+        alt="Imagem"
+        onclick="tocarAudio()"
+        style="cursor: pointer;"
+    >
+</picture>
+
+<script>
+    function tocarAudio() {
+        const audio = new Audio("midia/spide-man.mp3");
+        audio.play();
+    }
+</script>
+
+</body>
+</html>
+</script>
+</body>
+</html>

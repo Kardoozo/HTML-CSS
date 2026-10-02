@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens com som</title>
+</head>
+<body>
+
+
+<picture>
+
+    <!-- Até 700px -->
+    <source
+        media="(max-width: 700px)"
+        srcset="midia/fnaruto500.png">
+
+    <!-- De 701px até 1000px -->
+    <source
+        media="(max-width: 1000px)"
+        srcset="midia/dexter700.png">
+
+    <!-- Acima de 1000px -->
+    <img
+        src="midia/the-last-of-us1.webp"
+        alt="Imagem"
+        onclick="tocar()"
+        style="cursor: pointer;"
+    >
+
+</picture>
+
+<script>
+
+function tocar() {
+
+    let audio;
+
+    if (window.innerWidth <= 700) {
+
+        audio = new Audio("audio/naruto.mp3");
+
+    } else if (window.innerWidth <= 1000) {
+
+        audio = new Audio("audio/dexter.mp3");
+
+    } else {
+
+        audio = new Audio("audio/last-of-us-theme.mp3");
+
+    }
+
+    audio.play();
+
+}
+
+</script>
+
+</script>
+</body>
+</html>

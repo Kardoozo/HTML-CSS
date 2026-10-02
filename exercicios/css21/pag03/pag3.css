@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+body{
+    background-image:radial-gradient(circle, #420700, #420011,#160606);
+    font-family: "Google Sans Flex";
+     background-attachment: fixed;
+}
+
+li{
+    
+    font-weight: normal;
+}
+
+main{
+    
+    background-color: rgb(252, 251, 251);
+    box-shadow:10px 10px 30px   #ac002b;
+    border-radius: 25px;
+    padding: 10px;
+    width: 650px;
+
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+
+    margin: 20px auto;
+    
+}
+
+
+h1{
+    font-family: 'moderno';
+    
+    color: #ac002b;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: solid;
+    text-align: justify;
+    color: #ac002b;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.cor{
+    color: #ac002b;
+}
+a:active{
+    color: blue;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family:'moderno';
+    src: url(modern_romance/Modern\ Romance.otf) format('opentype');
+}

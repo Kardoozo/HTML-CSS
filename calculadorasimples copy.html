@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>faça sua conta 😊</h1>
+
+    <input type="number" id="n1" value="Verificar" placeholder=" primeiro numero">
+    <input type="number" id="n2" value="Verificar" placeholder=" segundo numero">
+
+    <input type="button" value="somar" onclick="calcular('+')">
+    <input type="button" value="subtrair" onclick="calcular('-')">
+    <input type="button" value="dividir" onclick="calcular('/')">
+    <input type="button" value="mutiplicar" onclick="calcular('*')">
+
+    <div id="res"> resultado</div>
+
+<script>
+    function calcular(operação){
+        var num1 = Number(document.getElementById('n1').value)
+        var num2 = Number(document.getElementById('n2').value)
+        var result = document.getElementById('res')
+
+         if(operacao === "+"){
+                result.innerHTML = `<p>O resultado entre ${num1} e ${num2} é ${num1 + num2}</p>`
+            }else if(operacao === "-"){
+                result.innerHTML = `<p>O resultado entre ${num1} e ${num2} é ${num1 - num2}</p>`
+            }else if(operacao === "*"){
+                result.innerHTML = `<p>O resultado entre ${num1} e ${num2} é ${num1 * num2}</p>`
+            }else if(operacao === "/"){
+                result.innerHTML = `<p>O resultado entre ${num1} e ${num2} é ${num1 / num2}</p>`
+            }
+        
+
+        
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+ <style>
+    body {
+            font: normal 18pt Arial;
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 120px ;
+        }
+ </style>
+<body>
+    <h1>Calculando IMC</h1>
+    <p>coloque seu <strong>Peso e sua Altura</strong> </p>
+
+
+<input type="number" id="IMC1" placeholder="seu peso">
+
+<input type="number" id="IMC2" placeholder="sua altura">
+
+<input type="button" value="calcular" onclick="DIV()">
+
+<div id="res">Resultado</div>
+
+
+<script>
+    function DIV(){
+        var MC = document.getElementById('IMC1')
+        var MC2 = document.getElementById('IMC2')
+        var res = document.getElementById('res')
+
+        var n1 = Number(MC.value)
+        var n2 = Number (MC2.value)
+        var imc = n1 / (n2 * n2)
+        var dvtext = imc.toFixed(1).replace(".", ",")
+        res.innerHTML = (`calculos entre os números são ${n1} e ${n2} é <strong>${dvtext}!</strong>`)
+
+
+
+        if(imc<18.5){
+            res.innerHTML += `<p> voce esta abaixou do peso ${dvtext}! </p>`
+            res.style.backgroundColor = "grey"
+            
+        }else if (imc<=24.9){
+            res.innerHTML += `<p> voce esta no peso saudável ${dvtext}! </p>`
+            res.style.backgroundColor = "Green"
+
+        }else if(imc<=29.9){
+            res.innerHTML += `<p> voce esta com sobrepeso! ${dvtext}!</p>`
+            res.style.backgroundColor = "orange"
+
+        }else if(imc<=34.9){
+            res.innerHTML += `<p> voce esta com Obesidade nivel 1: ${dvtext}!</p>`
+            res.style.backgroundColor = "Red"
+
+        }else if (imc<=39.9){
+            res.innerHTML += `<p> voce esta com Obesidade nível 2: ${dvtext}!</p>`
+            res.style.backgroundColor = "Red"
+
+        }else if(imc>=40){
+            res.innerHTML += `<p> voce esta com obesidade nivel 3: ${dvtext}!</p>`
+            res.style.backgroundColor = "Red"
+        }  
+        
+
+
+        
+    }
+</script>
+
+
+
+
+    
+</body>
+</html>

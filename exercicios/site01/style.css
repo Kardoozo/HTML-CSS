@@ -76,11 +76,6 @@ main img{
     
 }
 
-main img.pequena{
-    max-width: 350px;
-    margin: auto;
-    display: block;
-}
 
 main img.pq{
     max-width: 350px;

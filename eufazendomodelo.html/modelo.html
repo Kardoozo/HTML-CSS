@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+<header>
+    <h1>Verificador de Idade</h1>
+</header>
+
+<section>
+    data de nascimento:
+    <input type="number" name = "txtano" id="txtano" min="0"> <!--aqui no javascript eu criei uma variavel "fano"-->
+<div>    
+    <input type="radio" name="radsex" id="mas" checked> <!--aqui no javascript eu criei uma variavel "fsex" getElementsByName-->
+    <label for="mas" >Masculino</label>
+
+    <input type="radio" name="radsex" id ="fem">
+    <label for = "fem">Feminino</label>
+</div>
+    <input type="button" value="Verificar" onclick="Verificar()"> <!--aqui no javascript eu criei uma função "verificar"-->
+</div>
+<div id="res"></div>
+</section>
+<footer>
+    <p>&copy;cursoemvideo!</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

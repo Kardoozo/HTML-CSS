@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        body{
+            background-color:cadetblue;
+            color: rgb(0, 0, 0);
+            font-family: Arial;
+            font-size: 16pt;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Site DOM</h1>
+    <p>Bem-vindo ao meu site!</p>
+     <p>Este é um exemplo de manipulação do <strong>DOM</strong> usando JavaScript.</p>
+    <div class="MSG">Clique em mim!</div>
+    <script>
+        var p1 = document.getElementsByTagName("p")[1];
+        p1.style.color = "blue";
+        var corpo = document.body;
+        corpo.style.backgroundColor = "lightgray";
+        document.write(p1.innerHTML+"<br>");
+        document.write(p1.innerText+"<br>");
+        
+        var MSG = document.querySelector("div.MSG");
+        MSG.style.color = "red";    
+       
+        
+        
+        /*var msg = document.getElementById("MSG");
+        msg.style.color = "red";
+        //msg.innerText= 'MUDEI AGORA A DIV';
+        document.getElementById('MSG').innerText = 'Olá, eu sou a div MSG';*/
+
+    </script>
+</body>
+</html>

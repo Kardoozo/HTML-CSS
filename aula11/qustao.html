@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+
+    <style>
+        body{
+            font: normal 18pt Arial;
+            margin: 30px;
+        }
+
+        input{
+            font: normal 18pt Arial;
+            width: 120px;
+        }
+
+        #res{
+            margin-top:20px;
+            padding:15px;
+            border-radius:10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Digite sua idade</h1>
+
+    <input type="number" id="idade">
+
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="res">
+        Resultado
+    </div>
+
+<script>
+
+function verificar(){
+
+    // Pegando os elementos
+    var txtIdade = document.getElementById("idade")
+    var res = document.getElementById("res")
+
+    // Convertendo para número
+    var idade = Number(txtIdade.value)
+
+    // Limpando o resultado anterior
+    res.innerHTML = `<p>Você tem <strong>${idade}</strong> anos.</p>`
+
+    // Resetando as cores
+    res.style.color = "black"
+
+    if(idade <= 12){
+
+        res.innerHTML += `<p>👶 Você é uma Criança!</p>`
+        res.style.backgroundColor = "lightblue"
+
+    }else if(idade <= 18){
+
+        res.innerHTML += `<p>🧑 Você é Adolescente!</p>`
+        res.style.backgroundColor = "orange"
+        res.style.color = "white"
+
+    }else if(idade <= 65){
+
+        res.innerHTML += `<p>👨 Você é Adulto!</p>`
+        res.style.backgroundColor = "green"
+        res.style.color = "white"
+
+    }else{
+
+        res.innerHTML += `<p>👴 Você é Idoso!</p>`
+        res.style.backgroundColor = "purple"
+        res.style.color = "white"
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>

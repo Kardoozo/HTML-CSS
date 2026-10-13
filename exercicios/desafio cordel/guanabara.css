@@ -61,17 +61,32 @@ section.normal{
     color: black;
 }
 
+section>p{
+    padding-bottom: 2em;
+}
+
 section.imagem{
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.582);
     background-color: rgb(34, 34, 34);
     color: white;
+    background-size: cover;
 }
 
 section.imagem>p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.438);
+    text-shadow: 2px 2px 0px black;
 }
 
+section#img01{
+    background-position: right center;
+    background-image: url(gimagens/background001.jpg);
+}
+section#img02{
+    background-image: url(gimagens/background002.jpg);
+}
 
 footer{
     background-color: black;

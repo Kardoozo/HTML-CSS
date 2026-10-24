@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio mermão</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        td{
+            text-align: center;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        table{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DESAFIO HARDCORE MERMÃO</h1>
+
+    <!--
+    coluna é deitado é colspan
+        
+    coluna em pé é rowspan
+
+    -->
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+    
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <tr><td colspan="3">8</td></tr>
+        </tr>
+        
+        <tr>
+            <td>9</td>
+            <tr><td rowspan="3">10</td></tr>
+            <td colspan="2">11</td>
+            <td>12</td>
+            
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <h1>correção</h1>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+    
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            
+        </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+        <tr>
+            
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+            
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+
+    <h2>tabela 2</h2>
+    <table>
+        
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+            
+            
+        </tr>
+
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    
+        <tr>
+            
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
+            
+        </tr>
+    </table>
+    <img src="https://cdn.discordapp.com/attachments/1563282332641787904/1563284714024996864/image.png?ex=6add11d8&is=6adbc058&hm=69cb154adf605110e65f757d853f61a4b1a546941ce48f6ea2761e4c48af2766&" alt="foto">
+</body>
+</html>

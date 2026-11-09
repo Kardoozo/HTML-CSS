@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form3</title>
+
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            margin: 0%;
+        }
+        .nome{
+            font-size: larger;
+        }
+        .number{
+            font-size: larger;
+        }
+
+        .submit{
+            font-size: larger;
+        }
+        .reset{
+            font-size: larger;
+        }
+        .mes{
+        font-size: larger;
+        }
+        .dia{
+            font-size: larger;
+        }
+        .hora{
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste de formulário</h1>
+    <form action="cadastro.php" method="get"></form>
+    <p>
+        <label for="inome">Nome:</label>
+        <input class="nome" type="text"name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name" required>
+    </p>
+    <p>
+        <label for="imedia">Média:</label>
+        <input class="number" type="number" name="media" id="imedia" placeholder="0 a 10" min="0" max="10" step="0.1" value="5" required>
+    </p>
+    <p>
+        <label for="imes">Período Letivo</label>
+        <input class="mes" type="month" name="mes" id="imes" value="2026-11">
+    </p>
+    <p>
+        <label for="idia">dia da prova</label>
+        <input class="dia" type="date" name="dia" id="idia">
+    </p>
+    <p>
+        <label for="ihora">horário da prova</label>
+        <input class="hora" type="time" name="hora" id="ihora">
+    </p>
+    <p>
+        <input class="submit" type="submit" value="Enviar">
+        <input class="reset" type="reset" value="Limpar">
+    </p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post"></form>
+
+    <label for="iesta">Estado</label>
+    <select name="estado" id="iesta">
+
+        <option value="" selected>---escolha---</option>
+        <optgroup label="região Centro-oeste">
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do sul</option>
+            <option value="MG" >minas gerais</option>
+        </optgroup>
+
+
+        <optgroup label="Região Nordeste">
+            <option value="CE">Ceará</option>
+            <option value="TO">Tocantins</option>
+            <option value="PI">Piauí</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PA">Pará</option>
+        </optgroup>
+    </select>
+
+    <p>
+        <label for="iprof">Sua Profissão:</label>
+        <input type="text" name="prof" id="iprof" list="listprof">
+        <datalist id="listprof">
+            <option>administrador</option>
+            <option>Contabilidade</option>
+            <option>Desenvolvedor</option>
+            <option>Professor</option>
+            <option>Engenheiro</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mensagem:</label><br>
+        <textarea name="msg" id="imgs" cols="30" rows="10" placeholder="     DEIXE SUA MENSAGEM AQUI!"></textarea>
+
+    </p>
+
+    
+    <p>
+        <input type="submit" value="enviar pra casa do caraio">
+        <input type="reset" value="limpar">
+    </p>
+</body>
+</html>

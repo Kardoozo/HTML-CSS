@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*estilo para telas*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: lightgray;
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu ul{
+list-style-type: none;
+background-color: lightslategray;
+}
+
+menu li{
+background-color: lightsteelblue;
+display: inline-block;
+padding: 10px;
+border-radius: 12px;
+}
+
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
